@@ -49,3 +49,5 @@ and you will see the moon phases stream!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+*Inspired by https://github.com/lmammino/streams-workshop*
