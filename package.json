@@ -1,0 +1,32 @@
+{
+  "name": "moon-phases-stream",
+  "version": "1.0.0",
+  "description": "moon phases with node.js streams",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.18",
+    "npm": ">=6.14"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabrilallo/moon-phases-stream.git"
+  },
+  "keywords": [
+    "nodejs",
+    "streams",
+    "moon"
+  ],
+  "author": "Fabrizio Lallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabrilallo/moon-phases-stream/issues"
+  },
+  "homepage": "https://github.com/fabrilallo/moon-phases-stream#readme",
+  "dependencies": {
+    "node-emoji": "^1.11.0"
+  }
+}
