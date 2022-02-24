@@ -17,9 +17,11 @@ class EmojiMoonStream extends Readable {
   }
 
   _read () {
+    const LAST_MOON_PHASE = 8;
+    const FIRST_MOON_PHASE = 0;
     this.push(this.moonPhases[this.index++]);
-    if (this.index === 8) {
-      this.index = 0;
+    if (this.index === LAST_MOON_PHASE) {
+      this.index = FIRST_MOON_PHASE;
     }
   }
 }
