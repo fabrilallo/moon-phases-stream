@@ -1,7 +1,7 @@
 import http from 'http';
 import { Readable, pipeline } from 'stream';
 import emoji from 'node-emoji';
-class EmojiMoonStream extends Readable {
+class MoonPhasesStream extends Readable {
   constructor (options) {
     super(options);
     this.moonPhases = [];
@@ -26,7 +26,7 @@ class EmojiMoonStream extends Readable {
   }
 }
 const server = http.createServer((req, res) => {
-  const moonPhasesStream = new EmojiMoonStream();
+  const moonPhasesStream = new MoonPhasesStream();
 
   pipeline(moonPhasesStream, res, (error) => console.log(error));
 });
