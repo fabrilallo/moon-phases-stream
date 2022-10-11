@@ -12,11 +12,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This a simple project made to practice with Node.js streams. It's built with an http server that streams the emojis of the moon phases.
+This a simple project made to practice with Node.js streams. It's an HTTP server which continuously shows moon phases with emojis.
 ### Prerequisites
 
-* `node 14.18.3` 
-* `npm 6.14.15` 
+* `node 16.17.1` 
+* `npm >= 6.14.15` 
 
 
 ### Installation
